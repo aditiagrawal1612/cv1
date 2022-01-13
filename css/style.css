@@ -6,14 +6,22 @@ body {
 h1{
   color: white;
   text-align: center;
-  margin: 50px auto 0 auto;
+  margin: 170px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 90px;
+}
 
+h1:hover{
+  color: pink;
 }
 h2 {
   color: white;
   font-size: 2.5rem;
+  margin: 0;
+}
+h3 {
+  color: #A267AC;
+  font-size: 3rem;
   margin: 0;
 }
 p{
@@ -45,6 +53,24 @@ hr{
   top: 30px;
 
 }
+
+ .cloud2{
+  position: absolute;
+  right: 300px;
+  top: 600px;
+
+}
+.cloud3{
+  position: absolute;
+  leftt: 500px;
+  top: 50px;
+
+}
+.profile{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
 .bottom-cloud{
   position: absolute;
   top: 400px;
@@ -87,6 +113,12 @@ hr{
 
 .painting{
   float: right;
+  height: 20vh;
+  margin-left: 30px;
+}
+
+.coding{
+  float: left;
   height: 20vh;
   margin-left: 30px;
 }
